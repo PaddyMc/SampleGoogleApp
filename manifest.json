@@ -1,0 +1,17 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "http://www.google.com/",
+    "https://www.google.com/",
+    "http://*/"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "gameIcon128.png", "128": "GameIcon.png" }
+}
